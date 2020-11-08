@@ -21,7 +21,7 @@ namespace Handin1.Data
         {
             string adultAsJson = JsonSerializer.Serialize(adult);
             HttpContent content = new StringContent(adultAsJson, Encoding.UTF8, "application/json");
-            await client.PostAsync(url + "/adults", content);
+            await client.PutAsync(url + "/adults", content);
         }
 
         public async Task<IList<Adult>> GetAdults()
