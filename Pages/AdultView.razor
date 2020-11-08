@@ -1,4 +1,4 @@
-﻿@page "/AdultView"
+﻿@page "/adults"
 @using Handin1.Data
 @using Handin1.Model
 @inject IAdultList AdultList
@@ -90,10 +90,10 @@ else
     string? filterByLastName = null;
     string? filterByJob = null;
 
-    private void RemoveAdult(int adultId)
+    private async Task RemoveAdult(int adultId)
     {
         Adult adultToRemove = adults.First(a => a.Id == adultId);
-        AdultList.RemoveAdult(adultId);
+        await AdultList.RemoveAdult(adultId);
         adults.Remove(adultToRemove);
     }
 
@@ -141,7 +141,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        adults = AdultList.GetAdults();
+        adults = await AdultList.GetAdults();
         adultsFiltered = adults;
     }
 }

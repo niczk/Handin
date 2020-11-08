@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\DNPexercises\\handin\\Handin1\\Handin1\\Handin1.csproj": {}
+    "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\handin\\Handin1\\Handin1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\DNPexercises\\handin\\Handin1\\Handin1\\Handin1.csproj": {
+    "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\handin\\Handin1\\Handin1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\DNPexercises\\handin\\Handin1\\Handin1\\Handin1.csproj",
+        "projectUniqueName": "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\handin\\Handin1\\Handin1.csproj",
         "projectName": "Handin1",
-        "projectPath": "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\DNPexercises\\handin\\Handin1\\Handin1\\Handin1.csproj",
+        "projectPath": "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\handin\\Handin1\\Handin1.csproj",
         "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\DNPexercises\\handin\\Handin1\\Handin1\\obj\\",
+        "outputPath": "C:\\Users\\Nick\\OneDrive\\Documents\\School\\3. semester\\DNP\\handin\\Handin1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",

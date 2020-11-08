@@ -8,8 +8,8 @@ namespace Handin1.Data
 {
     public interface IAdultList
     {
-        IList<Adult> GetAdults();
-        void AddAdult(Adult adult);
-        void RemoveAdult(int adultId);
+        Task<IList<Adult>> GetAdults();
+        Task AddAdult(Adult adult);
+        Task RemoveAdult(int adultId);
     }
 }

@@ -30,7 +30,7 @@ namespace Handin1.Data
             }
         }
 
-        public void AddAdult(Adult adult)
+        public async Task AddAdult(Adult adult)
         {
             int max = adults.Max(adult => adult.Id); //get last ID
             adult.Id = (++max); //saving last id+1
@@ -38,13 +38,13 @@ namespace Handin1.Data
             SaveToJson();
         }
 
-        public IList<Adult> GetAdults()
+        public async Task<IList<Adult>> GetAdults()
         {
             List<Adult> tmp = new List<Adult>(adults); //copy list (just for sure)
             return tmp;
         }
 
-        public void RemoveAdult(int adultId)
+        public async Task RemoveAdult(int adultId)
         {
             Adult toRemove = adults.First(a => a.Id == adultId);
             adults.Remove(toRemove);

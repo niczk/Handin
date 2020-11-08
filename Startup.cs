@@ -31,7 +31,7 @@ namespace Handin1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<IAdultList, AdultList>();
+            services.AddSingleton<IAdultList, CloudAdultList>();
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 

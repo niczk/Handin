@@ -52,12 +52,11 @@
 </EditForm>
 
 @code {
-    //@TODO: enable this only for admin
     private Adult newAdult = new Adult();
 
-    private void AddNewAdult()
+    private async Task AddNewAdult()
     {
-        AdultList.AddAdult(newAdult);
-        NavigationManager.NavigateTo("/AdultView");
+        await AdultList.AddAdult(newAdult);
+        NavigationManager.NavigateTo("/adults");
     }
 }
