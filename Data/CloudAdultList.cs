@@ -32,6 +32,21 @@ namespace Handin1.Data
             return result;
         }
 
+        public async Task<Adult> GetAdult(int adultId)
+        {
+            Task<string> stringAsync = client.GetStringAsync(url + "/adults/" + adultId);
+            string message = await stringAsync;
+            Adult result = JsonSerializer.Deserialize<Adult>(message);
+            return result;
+        }
+
+        public async Task UpdateAdult(Adult adult)
+        {
+            string adultAsJson = JsonSerializer.Serialize(adult);
+            HttpContent content = new StringContent(adultAsJson, Encoding.UTF8, "application/json");
+            await client.PatchAsync($"{url}/adults/{adult.Id}", content);
+        }
+
         public async Task RemoveAdult(int adultId)
         {
             await client.DeleteAsync($"{url}/adults/{adultId}");

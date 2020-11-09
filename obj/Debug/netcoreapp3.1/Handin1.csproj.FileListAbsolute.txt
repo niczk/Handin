@@ -104,3 +104,5 @@ C:\Users\Nick\OneDrive\Documents\School\3. semester\DNP\handin\Handin1\obj\Debug
 C:\Users\Nick\OneDrive\Documents\School\3. semester\DNP\handin\Handin1\obj\Debug\netcoreapp3.1\Handin1.pdb
 C:\Users\Nick\OneDrive\Documents\School\3. semester\DNP\handin\Handin1\obj\Debug\netcoreapp3.1\Handin1.genruntimeconfig.cache
 C:\Users\Nick\OneDrive\Documents\School\3. semester\DNP\handin\Handin1\obj\Debug\netcoreapp3.1\Handin1.csproj.CopyComplete
+C:\Users\Nick\OneDrive\Documents\School\3. semester\DNP\handin\Handin1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AdultUpdate.razor.g.cs
+C:\Users\Nick\OneDrive\Documents\School\3. semester\DNP\handin\Handin1\obj\Debug\netcoreapp3.1\Razor\Pages\AdultUpdate.razor.g.cs
